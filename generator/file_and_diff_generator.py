@@ -7,8 +7,8 @@ import ast
 
 def main():
 	movies=['second act','deadpool','aquaman','bumblebee']
-	file_generator1(movies,10,'fileT.txt') #generates the first large dataset file
-	file_generator2(movies,10,'fileV.txt') #generates the second large dataset file
+	file_generator1(movies,1000,'fileT.txt') #generates the first large dataset file
+	file_generator2(movies,1000,'fileV.txt') #generates the second large dataset file
 	diff_generator('fileT.txt','fileV.txt') #generates the difference between the two dataset files
 	
 

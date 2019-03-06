@@ -1,2 +1,2 @@
 pytest==3.0.6
-pip install dictdiffer
+dictdiffer==0.7.2
